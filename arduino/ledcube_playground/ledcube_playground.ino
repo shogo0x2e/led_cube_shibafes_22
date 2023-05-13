@@ -51,6 +51,8 @@ void loop() {
   // static auto now = millis();
 
   print(pattern_2d);
+
+
   // test_display();
 
   // display(

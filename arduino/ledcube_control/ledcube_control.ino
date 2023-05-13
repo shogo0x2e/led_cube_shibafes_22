@@ -142,7 +142,8 @@ void setup()
   */
   digitalWrite(RCLK, LOW);
   digitalWrite(RCLK, HIGH);
-  delay(5000);
+  
+  // while(1);
 }
 
 void loop() {
