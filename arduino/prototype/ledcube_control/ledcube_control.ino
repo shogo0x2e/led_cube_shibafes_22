@@ -143,7 +143,7 @@ void setup()
   digitalWrite(RCLK, LOW);
   digitalWrite(RCLK, HIGH);
   
-  // while(1);
+  while(1);
 }
 
 void loop() {

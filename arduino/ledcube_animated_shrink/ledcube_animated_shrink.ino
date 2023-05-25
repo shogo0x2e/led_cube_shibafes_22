@@ -57,6 +57,16 @@ void setup() {
 
   Serial.begin(9600);
 
+  
+  shiftOut(SER, SRCLK, LSBFIRST, 0xff);
+  shiftOut(SER, SRCLK, LSBFIRST, 0xff);
+  shiftOut(SER, SRCLK, LSBFIRST, 0xff);
+  shiftOut(SER, SRCLK, LSBFIRST, 0xff);
+  digitalWrite(RCLK, LOW);
+  digitalWrite(RCLK, HIGH);
+
+  delay(5000);
+
 }
 
 void loop() {
